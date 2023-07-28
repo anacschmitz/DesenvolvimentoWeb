@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .texto{
+    color:purple
+}
+
+p{
+    color: olive;
+} */
+
+/* body > .bloco > p {
+    color: red;
+    border: solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.bloco{
+    color: blue !important;
+    background: linear-gradient(to top, gray, black, white);
+    border-bottom: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+}
+
+.bloco2{
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+    letter-spacing: 5px;
+    text-align: center;
+/* 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+
+    /* margin: 200px 200px 200px 200px */
+    margin: 300px;
+    padding: 50px;
+    box-sizing: border-box;
+}
