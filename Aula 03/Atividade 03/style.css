@@ -9,7 +9,7 @@
   border: 2px solid black;
   border-radius: 1%;
   width: 1200px;
-  height: 600px;
+  height: 625px;
 }
 
 .container h1{
@@ -26,6 +26,10 @@
   margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
+
+}
+.inlineBlock:hover{
+  cursor:point;
 }
 
 .inlineBlock img{
@@ -51,10 +55,11 @@
 .legenda{
     top: 187px;
     text-align: center;
+    padding: 5px 15px;
     bottom: 100px;
     position: relative;
     background-color:rgba(119, 86, 126, 0.269);
-    height: 55px;
+    height: 65px;
     width: 250px;
   }
 
@@ -90,9 +95,10 @@
       text-align: center;
       top: 310px;
       bottom: 100px;
+      padding: 5px 15px;
       position: relative;
       background-color:rgba(119, 86, 126, 0.269);
-      height: 55px;
+      height: 65px;
       width: 250px;
     }
   
