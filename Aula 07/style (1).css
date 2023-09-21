@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.container{
+    border: 1px solid black;
+    margin: 30px auto;
+    display: grid;
+    /* justify-content: center;
+    align-items: center;*/
+    /* grid-template-columns: repeat(3, 400px); */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px,300px)); */
+    grid-template-columns: 400px;
+    grid-template-rows: 250px 250px 250px;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+    /* gap: 10px; */
+} 
+
+.box {
+    background-color: red;
+    /* width: 200px; */
+    height: 200px;
+}

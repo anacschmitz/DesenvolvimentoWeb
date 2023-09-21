@@ -12,7 +12,7 @@
 }
 
 .box{
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 5px;
   width: 80px;
@@ -20,6 +20,7 @@
   background-color: red;
   border-radius: 50%;
 }
+
 
 .nav{
   top: 0px;

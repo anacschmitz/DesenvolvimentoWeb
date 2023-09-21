@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.spin{
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  animation: changeColor 2s infinite;
+  animation-timing-function: ease;
+}
+
+.spin2{
+  width: 100px;
+  height: 100px;
+  margin: 40px auto;
+  border-radius: 50%;
+  border: 10px solid gray;
+  border-top: 10px solid blue;
+  animation: spin 2s infinite
+}
+
+
+@keyframes changeColor {
+  0%{
+    border-top: solid 20px blue;
+    border-radius: 100%;
+  }
+  25%{
+    border-right: solid 20px blue;
+    border-top: none;
+    border-radius: 100%;
+  }
+  75%{
+    border-bottom: solid 20px blue;
+    border-top: none;
+    border-right: none;
+    border-radius: 100%;
+  }
+  100%{
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 100%;
+    border-left: solid 20px blue;
+  }
+}
+
+@keyframes spin {
+  100%{
+    rotate: 360deg;
+  }
+}

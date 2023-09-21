@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.container{
+    padding: 10px;
+    /* gap: 10px; */
+    /* margin-bottom: 70px; */
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 85%;
+    grid-template-areas: 
+    "esquerda direita"
+    ;
+}
+
+.esquerda{
+    display: flex;
+    background-color: #121212;
+    grid-area: esquerda;
+    flex-direction: column;
+    gap:10px;
+}
+
+aside{
+    background-color: #7770700f;
+    color: white;
+}
+
+.inicio{
+    height: 100px;
+    border-radius: 5%;
+}
+.primeiraPlaylist{
+    border-radius: 10%;
+    height: 150px;
+}
+
+.podcast{
+    border-radius: 10%;
+    height: 140px;
+}
+
+.direita{
+    background-color: #121212;
+    grid-area: direita;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: black;
+    width: auto;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.flechas{
+    padding-top: 8px;
+}
+
+.navbar span{
+    color: white;
+}
+.botaoRegistrar{
+    background-color: green;
+
+}
+
+.botaoSessao{
+    background-color: white;
+    border-radius: 35%;
+    /* height: 30px;
+    width: 70px; */
+    padding: 10px 17px;
+}
+
+.titulo{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.titulo h5{
+    padding-top: 15px;
+}
+
+.playList{
+    display: flex;
+    /* height: 90vh; */
+    /* grid-template-columns: repeat(7, 13%); */
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    gap: 25px;
+    /* margin-top: 25px; */
+    margin-left: 20px;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+.card{
+    background-color:  #bab1b10f;
+    height: 220px;
+    width: 150px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.cardIcones{
+    text-align: center;
+    padding-left: 8px;
+}
+
+.card img{
+    height: 140px;
+    width: 140px;
+}
+
+.cardIcones span{
+    text-align: left;
+}
+
+
+footer{
+    background-color: red;
+}

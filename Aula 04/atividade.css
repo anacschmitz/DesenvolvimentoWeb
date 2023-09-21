@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: rgb(180, 175, 175);
+  padding: 20px;
+  display: flex;
+}
+.cadastro{
+  background-color: white;
+  margin: 15px 10px;
+  position: relative;
+  text-align: center;
+  left: 0;
+  width: 50%;
+  height: 600px;
+  margin: 180px auto;
+}
+
+
+.cadastro h1{
+  padding: 50px;
+  text-align: left;
+}
+
+.cadastro button{
+  margin-top: 20px;
+  background-color: rgb(243, 105, 41);
+  border-radius: 5%;
+  height: 35px;
+  width: 150px;
+}
+
+.cadastro input{
+  width: 300px;
+  padding: 15px;
+  padding-top: 15px;
+  margin-top: 7px;
+  background-color: white
+}
+
+.icones{
+  background-color: white;
+  position: relative;
+  text-align: center;
+  right: 0px;
+  width: 50%;
+  height: 600px;
+  margin: 180px auto;
+  background-image: linear-gradient(to right, rgb(106, 106, 180), rgb(86, 190, 86));
+}
+
+.face{
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 175px;
+  padding: 50px auto;
+  height: 45px;
+  width: 300px;
+  background-color: #5128e6;
+}
+
+.twitter{
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 25px;
+  padding: 50px auto;
+  height: 45px;
+  width: 300px;
+  background-color: #5084dc ;
+}
+
+.email{
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 25px;
+  padding: 50px auto;
+  height: 45px;
+  width: 300px;
+  background-color: #83a1d5 ;
+}
+
+.textoBotao{
+  padding-left: 25px;
+
+}
+
+
+.titulos{
+  height: 70px;
+  margin: 15px;
+}
+
+
+@media(max-width: px){
+  .icones{
+  display: none;
+}}
+
+@media(max-width: 600px){
+
+  .cadastro{
+      width: 100%;
+  }
+  .icones{
+      display: none;
+      
+  }
+  .email, .face, .twitter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+}

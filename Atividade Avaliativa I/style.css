@@ -1,0 +1,271 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  scroll-behavior: smooth;
+  
+}
+
+.navbar{
+  background-color: #dfe17b;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img{
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link{
+  color: #b78ac8;
+  font-size: 19px;
+}
+
+.icones{
+  color: #b78ac8;
+  font-size: 25px;
+}
+
+.nav-link:hover{
+  transition: 2s;
+  padding: 10px 18px;
+  background-color: #c5a2d2;
+}
+
+.container{
+  background-color: #dacddf;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 15px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tituloSessao{
+  display: flex;
+  padding: 6px 20px;
+  justify-content: center;
+  font-size: larger;
+  background-color: #dacddf;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card{
+  border: solid #dfe17b;
+  border: 10px;
+  background-color: white;
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+.image img{
+  margin: 10px;
+  border: solid #c5a2d2;
+}
+.botao{
+  position: relative;
+  top: -50px;
+  background-color: white;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+.titulo{
+  position: relative;
+  top: -35px;
+  margin: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-weight: bold;
+}
+.descricao{
+  position: relative;
+  top: -35px;
+  margin: 15px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+.preco{
+  padding: 0 15px;
+  align-items: center;
+  position: relative;
+  top: -35px;
+  width: 285px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.avaliacao{
+  position: relative;
+  right: 0px;
+  display: inline;
+  font-size: 15px;
+}
+.avaliacao h3{
+ padding-bottom: 10px;
+ font-size: small;
+}
+.avaliacao i{
+  padding-top: 10px ;
+}
+.preco p{
+  display: inline-block;
+}
+
+.box{
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  width: 60px;
+  height: 60px;
+  background-color: #dfe17b;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+}
+
+.box:hover{
+  transition: 2s;
+  background-color: #c5a2d2;
+}
+
+.fa-solid{
+  color: white;
+  font-size: large;
+}
+
+footer{
+  background-color: #dfe17b;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* #Segunda Página */
+
+.dashboard{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 15px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 50px 0 50px;
+}
+
+.dashCard{
+  display: flex;
+  background-color: #dacddf;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  margin: 15px 60px;
+  padding: 35px;
+  border-radius: 15%;
+}
+
+.dashCard:hover{
+  transition: 2s;
+  background-color: #dfe17b;
+  cursor: pointer;
+}
+
+.dashCard i{
+  color: black;
+  font-size: xx-large;
+}
+
+#products h1{
+  text-align: center;
+  font-size: xx-large;
+}
+
+.table {
+  background-color: #ddd;
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
+
+.table > thead{
+  background-color: #c5a2d2;
+  color: white;
+  padding: 30px 0;
+  height: 45px;
+  text-align: center;
+}
+
+.table > tbody > tr > td{
+  padding: 16px 0;
+  text-align: center;
+}
+
+.table > tbody >tr > td:nth-child(4){
+  text-decoration: underline;
+  text-decoration-color: rgb(81, 81, 196);
+  color: rgb(81, 81, 196);
+}
+
+.table > tbody > tr:nth-of-type(even){
+  background-color: white;
+ }
+
+tr:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.paginação{
+  text-align: center;
+}
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+  background-color: #c5a2d2;
+  color: #dfe17b;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
