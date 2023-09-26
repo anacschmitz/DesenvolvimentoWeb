@@ -36,4 +36,15 @@ formulario.addEventListener('submit', function(event){
   })
 })
 
-// console.log(container);
+async function getName() {
+  let request = await fetch('https://servicodados.ibge.gov.br/api/v2/censos/nomes/AnaCarolina');
+  let response = await request.json();
+  console.log(response[0]['nome']);
+
+}
+
+
+
+// Promise: enquanto a requisição não retorna, após o envio do "pedido" aparece uma
+// "promessa" de resposta.
+getName();
